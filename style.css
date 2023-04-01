@@ -78,7 +78,9 @@ margin-top: -20%;
     margin-left: 5%;
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 768px) {
+
     *{
         padding: 0;
         margin: 0;
@@ -105,7 +107,8 @@ body {
 
 .border {
     position: absolute;
-    top: 102%;
+
+    top: 115%;
     left: -45%;
     height: 280px;
     width: 291px;
@@ -120,7 +123,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 177%;
+
+    margin-top: 205%
     /* display: inline-block; */
     background-position: center;
     background-size: cover;
