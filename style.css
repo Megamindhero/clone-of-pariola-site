@@ -65,3 +65,76 @@ body{
 .two-para #p2{
     margin-left: 5%;
 }
+
+@media (max-width:650px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+}
+
+
+body {
+    height: 170vh;
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(36, 36, 36));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile img{
+    width: 300px;
+    height: 300px;
+    margin-right: 16%;
+    /* the codes below gives you the abilty to move maybe a image to any side of the screen, note: you must use a position: absolute before it will take palce */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 60%;
+    
+}
+
+.border{
+    border: none;
+}
+
+.head {
+    color: white;
+    font-size: 37px;
+    margin-left: 10%;
+    margin-top: 50%;
+    font-weight: bolder;
+}
+
+.para1 {
+    color: white;
+    font-weight: 800;
+    margin-left: 7%;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.two-para {
+    color: white;
+    display: flex;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: -11%;
+}
+
+.two-para #p1 {
+    margin-left: 15%;
+    padding: 20px;
+    margin-top: -15.7px;
+}
+
+.two-para #p2 {
+    margin-left: 4%;
+}
+
+.hand{
+    margin-left: -8.5%;
+}
+
+}
