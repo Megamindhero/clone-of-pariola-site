@@ -1,3 +1,3 @@
-# Demo
+# Clone of a personal portfolio.
 
-this are my description!
+Left most of the resources i used in the repo.
