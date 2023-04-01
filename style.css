@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.logo, h1, h2, p {
+    background: linear-gradient(to right, #b3e6ff, #f2f2f2, #b3e6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 body{
@@ -29,18 +36,23 @@ body{
 }
 
 .profile{
-    margin-left: 60%;
-    margin-top: -26%;
     /* border: 3px solid white;
     position: absolute; */
+background: url(pariola.png);
+width: 320px;
+height: 300px;
+background-size: cover;
+background-position: center;
+margin-left: 62.5%;
+margin-top: -20%;
 }
 
 .border{
     border: 2px solid white;
-    width: 336.7px;
-    height: 320px;
-    margin-left: 62.8%;
-    margin-top: -16.5%;
+    width: 322px;
+    height: 300px;
+    margin-left: 64.8%;
+    margin-top: -33.5%;
 }
 
 .para1{
@@ -64,4 +76,110 @@ body{
 
 .two-para #p2{
     margin-left: 5%;
+}
+
+@media screen and (max-width: 450px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+}
+
+.logo {
+    color: white;
+    margin-left: -9.6%;
+    padding: 80px;
+    margin-top: -4.4%;
+    position: absolute;
+}
+
+
+body {
+    height: 150vh;
+    width: 0;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(36, 36, 36));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border {
+    position: absolute;
+    top: 102%;
+    left: -45%;
+    height: 280px;
+    width: 291px;
+    display: block;
+} 
+
+.profile {
+    width: 300px;
+    height: 280px;
+    margin-right: 19%;
+    /* the codes below gives you the abilty to move maybe a image to any side of the screen, note: you must use a position: absolute before it will take palce */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 177%;
+    /* display: inline-block; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(pariola.png);
+
+}
+
+.head {
+    color: white;
+    font-size: 34px;
+    margin-left: 7%;
+    /* margin-top: 10%; */
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 40%;
+}
+
+.para1 {
+    color: white;
+    font-weight: 800;
+    margin-left: 1.1%;
+    padding: 30px;
+    line-height: 30px;
+    margin-top: 80%;
+    position: absolute;
+
+}
+
+.two-para {
+    color: white;
+    display: flex;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: -6%;
+    position: absolute;
+}
+
+.two-para #p1 {
+    margin-left: 10%;
+    padding: 20px;
+    margin-top: 115%;
+}
+
+.two-para #p2 {
+    margin-left: 5%;
+    margin-top: 119.6%;
+}
+
+.hand{
+    margin-left: -8.5%;
+    display: none;
+}
+
+.logo, h1, h2, p{
+    background: linear-gradient(to right, #b3e6ff, #e8caca, #b3e6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
 }
